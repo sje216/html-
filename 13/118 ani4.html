@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .origin{
+        width:160px;
+        height:240px;
+        border:1px solid #000;
+        margin-left:100px;
+        margin-bottom:100px;
+      }
+.skewx:hover{
+transform:skewx(30deg);
+-webkit-transform:skewx(30deg);
+-o-transform:skewx(30deg);
+-ms-transform:skewx(30deg);
+-mozila-transform:skewx(30deg);
+}
+.skewy:hover{
+transform:skewy(15deg);
+-webkit-transform:skewy(15deg);
+-o-transform:skewy(15deg);
+-ms-transform:skewy(15deg);
+-mozila-transform:skewy(15deg);
+}
+.skewxy:hover{
+transform:skew(-25deg, -15deg);
+-webkit-transform:skew(-25deg, -15deg);
+-o-transform:skew(-25deg, -15deg);
+-ms-transform:skew(-25deg, -15deg);
+-mozila-transform:skew(-25deg, -15deg);
+}
+    </style>
+  </head>
+  <body>
+    <div class="origin">
+      <div class="skewx"><img src="images/rose.jpg"></div>
+    </div>
+    <div class="origin">
+      <div class="skewy"><img src="images/rose.jpg"></div>
+    </div>
+    <div class="origin">
+      <div class="skewxy"><img src="images/rose.jpg"></div>
+    </div>
+  </body>
+</html>
