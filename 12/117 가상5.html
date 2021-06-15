@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      p:not(#ex){
+        color:red;
+      }
+      h1:only-of-type{
+        color:blue;
+      }
+      h2:only-child{
+        color:yellow;
+      }
+    </style>
+  </head>
+  <body>
+  <div>
+    <h2>자식이 하나입니다.</h2>
+  </div>
+  <h1>단락을 만듭니다.</h1>
+<p>1번째 단락</p>
+<p>1번째 단락</p>
+<p>1번째 단락</p>
+<p id="ex">1번째 단락</p>
+<p>1번째 단락</p>
+<p>1번째 단락</p>
+  </body>
+</html>

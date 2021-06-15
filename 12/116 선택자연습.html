@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    ul li{
+      list-style: none;
+      display: inline-block;
+            padding-left: 20px;
+    }
+    a{
+      text-decoration: none;
+
+    }
+a[title ^="eng"]{
+  background: url(images/us.png) no-repeat left center;
+  padding: 5px 25px;
+}
+a[title^="jap"]{
+  background: url(images/jp.png) no-repeat left center;
+    padding: 5px 25px;
+}
+a[title^="chin"]{
+  background: url(images/ch.png) no-repeat left center;
+    padding: 5px 25px;
+}
+    </style>
+  </head>
+  <body>
+<ul>
+<li>외국어 서비스 : </li>
+<li>
+  <a href="#" title="english">영어</a>
+  <a href="#" title="japanese">일본어</a>
+  <a href="#" title="chinese">중국어</a>
+</li>
+</ul>
+  </body>
+</html>
